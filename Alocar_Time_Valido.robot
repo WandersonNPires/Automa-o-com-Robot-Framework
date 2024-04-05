@@ -23,7 +23,9 @@ check that when filling out the form correctly, the data was entered into the li
       
       Given that filling out the form fields
       and click on the create card button
-      then assign tre card to the expected team
+      Then identify the card in the expected team
+   
+ 
 
 *** Keywords ***
 Given that filling out the form fields
@@ -35,6 +37,6 @@ Given that filling out the form fields
     Sleep     10s
 and click on the create card button
     Click Element    ${BOTAO_CARD}
-then assign tre card to the expected team
+Then identify the card in the expected team
 ...    Element Should Be Visible    class:colaborador
      Sleep     5s
