@@ -1,6 +1,6 @@
 
 *** Settings ***
-Library    SeleniumLibrary
+Resource    ../main.robot
 
 *** Keywords ***
 Given that I access the organ
